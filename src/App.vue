@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import Features from './components/body/Features.vue'
+import Hero from './components/body/Hero.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Features from './components/body/Features.vue'
 
   <main>
     <Features></Features>
+    <Hero></Hero>
   </main>
 </template>
 
