@@ -1,29 +1,50 @@
-# .
+# Test d'intégration de Maquette Figma (figmaland-business-landing-page-community)
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet consiste à transposer une maquette réalisée sur Figma en une version web fonctionnelle. Le projet utilise les technologies suivantes : Tailwind CSS, Vue.js, Vite.\
+Vous pouvez télécharger le fichier figma et voir les instructions chez [Ctrlweb](https://recrutement.ctrlweb.ca/).
 
-## Recommended IDE Setup
+## Fonctionnalités
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Intégration de la maquette Figma
+- Utilisation de Tailwind CSS pour le style
+- Utilisation de Vue.js pour la structure frontale
+- Méthodologie git-flow pour la gestion des branches
 
-## Customize configuration
+## Prérequis
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Node.js (version 18.3 ou supérieure)
+- npm ou yarn
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+Veuillez consulter le fichier `INSTALL.md` pour les instructions d'installation détaillées.
 
-### Compile and Hot-Reload for Development
+## Utilisation
 
-```sh
-npm run dev
-```
+1. Clonez le dépôt GitHub :
+   ```bash
+   git clone https://github.com/duroycalvin/figmaland-business-landing-page-community.git
+    ```
 
-### Compile and Minify for Production
+2. Installez les dépendances :
+    ```bash
+    cd figmaland-business-landing-page-community
+    npm install
+     ```
 
-```sh
-npm run build
-```
+3. Lancez le serveur de développement :
+    ```bash
+    npm run dev
+    ```
+## Contribution
+Les contributions sont les bienvenues ! Veuillez suivre la méthodologie git-flow pour vos branches et soumettre des pull requests pour toute modification.
+
+## Licence
+Ce projet est sous licence MIT. Voir le fichier `LICENSE.md` pour plus de détails.
+
+## Autre documentation
+
+Voir [VueJS](https://vuejs.org/).\
+Voir [TailwindCss](https://tailwindcss.com/)\
+Voir [Vite](https://vite.dev/)
+
