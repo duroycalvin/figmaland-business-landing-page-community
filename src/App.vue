@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import Features from './components/body/Features.vue'
 import Hero from './components/body/Hero.vue'
+import CTA from './components/body/CTA.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Hero from './components/body/Hero.vue'
   <main>
     <Features></Features>
     <Hero></Hero>
+    <CTA></CTA>
   </main>
 </template>
 
