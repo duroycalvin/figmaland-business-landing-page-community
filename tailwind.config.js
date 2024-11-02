@@ -27,10 +27,11 @@ export default {
     },
   },
   plugins: [
-    plugin(function({ addBase, theme }) {
+    plugin(function({ addBase }) {
       addBase({
         'h1': {
           fontSize: '48px',
+          fontWeight: 'bold',
           lineHeight: '84px',
           letterSpacing: '0.2px'
         },

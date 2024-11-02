@@ -5,6 +5,7 @@ import Hero from './components/body/Hero.vue'
 import CTA from './components/body/CTA.vue'
 import Partners from "@/components/body/Partners.vue";
 import Testimonials from "@/components/body/Testimonials.vue";
+import Pricing from "@/components/body/Pricing.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Testimonials from "@/components/body/Testimonials.vue";
     <CTA></CTA>
     <Partners></Partners>
     <Testimonials></Testimonials>
+    <Pricing></Pricing>
   </main>
 </template>
 
