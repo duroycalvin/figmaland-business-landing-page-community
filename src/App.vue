@@ -6,6 +6,7 @@ import CTA from './components/body/CTA.vue'
 import Partners from "@/components/body/Partners.vue";
 import Testimonials from "@/components/body/Testimonials.vue";
 import Pricing from "@/components/body/Pricing.vue";
+import Contact from "@/components/body/Contact.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Pricing from "@/components/body/Pricing.vue";
     <Partners></Partners>
     <Testimonials></Testimonials>
     <Pricing></Pricing>
+    <Contact></Contact>
   </main>
 </template>
 
