@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    h1{
+        @apply md:text-[74px] md:font-bold;
+    }
+    .btn-primary {
+        @apply py-[18px] px-[38px] bg-primary text-light-text rounded-full;
+    }
+    .btn-light {
+        @apply py-[18px] px-[38px] bg-light-bg text-primary rounded-full;
+    }
+    .btn-bold {
+        @apply text-[20px] font-bold leading-[28px] tracking-[0.1px];
+    }
+}
