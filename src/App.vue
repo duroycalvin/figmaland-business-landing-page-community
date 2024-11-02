@@ -7,6 +7,7 @@ import Partners from "@/components/body/Partners.vue";
 import Testimonials from "@/components/body/Testimonials.vue";
 import Pricing from "@/components/body/Pricing.vue";
 import Contact from "@/components/body/Contact.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import Contact from "@/components/body/Contact.vue";
     <Pricing></Pricing>
     <Contact></Contact>
   </main>
+
+  <Footer></Footer>
 </template>
 
 <style scoped>
